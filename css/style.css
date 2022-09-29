@@ -125,11 +125,9 @@ body {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        position: absolute;
-            width: 696px;
-            height: 120px;
-            left: 452px;
-            top: 280px;
+        width: 696px;
+        height: 120px;
+        border: 1px solid #F5F4FA;
 }
 
 /* Content */
@@ -253,13 +251,11 @@ body {
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
-        position: absolute;
-            width: 216px;
-            height: 50px;
-            left: 692px;
-            top: 430px;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-            border-radius: 4px;
+        width: 216px;
+        height: 50px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border: 1px solid #F5F4FA;
+        border-radius: 4px;
 }
 
 .button {
