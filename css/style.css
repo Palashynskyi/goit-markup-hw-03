@@ -1,0 +1,294 @@
+/* колір основного тексту       #212121 */
+/* колір другорядного тексту    #757575 */
+/* лого     чорний              #000000 
+            синій               #2196F3 */
+
+/* ховер синій                  #2196F3 */
+/* сірий майл тел               rgba(255, 255, 255, 0.6) */
+/* білий                        #FFFFFF */
+
+/* фон основний             #FFFFFF */
+/* фон другорядний          #F5F4FA */
+/* фон герой та футер       #2F303A */
+
+
+/* Global */
+body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    width: 1600px;
+    height: 2346px;
+}
+
+:root {
+    --head-footter-bgc:#2F303A;
+    --primary-text-color: #757575;
+    --second-text-color: #212121;
+    --accent-color: #2196F3;
+    --second-bg-color: #F5F4FA;
+    --second-btn-color: #FFFFFF;
+    --logo-black-color:#000000;
+
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.inline {
+    display: inline;
+}
+/* Header */
+/* Logo style */
+
+.logo-web {
+    color: var(--accent-color);
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+}
+
+.logo-studio {
+    color: var(--logo-black-color);
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+}
+
+/* Site nav */
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: var(--second-text-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--accent-color);
+}
+
+.current {
+     color: var(--accent-color);
+}
+
+.item {
+    color: var(--primary-text-color); 
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+}
+
+.item:hover, .item:focus {
+    color: var(--accent-color);
+}
+
+/* Index html */
+/* Hero */
+
+.hero{
+    background-color: var(--head-footter-bgc);
+    width: 1600px;
+    height: 600px;
+}
+
+.hero-tittle {
+    color: var(--second-btn-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        position: absolute;
+            width: 696px;
+            height: 120px;
+            left: 452px;
+            top: 280px;
+}
+
+/* Content */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.content-tittle, .content-features {
+    color: var(--second-text-color);
+}
+
+.content-tittle {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.content-features {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+/* About */
+.about {
+    background-color: var(--second-bg-color);
+    width: 1600px;
+    height: 648px;
+}
+
+.about-li {
+    text-align: center;
+}
+
+.about-tittle, .about-name {
+    color: var(--second-text-color);
+}
+
+.about-tittle {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.about-name {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+/* Footer */
+.footer-map {
+    margin-top: 60px;
+}
+
+.footer-box {
+    background-color: var(--head-footter-bgc);
+        width: 1600px;
+        height: 252px;
+
+}
+
+.mail {
+    color:var(--second-btn-color);
+    font-style: normal;
+}
+
+.logo-alter {
+    color: var(--second-btn-color);
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+}
+
+/* Portfolio html */
+/* filter-list */
+.filter-list {
+    color: var(--second-btn-color);
+}
+
+/* Button */
+.hero-btn {
+    color: var(--second-btn-color);
+    background-color: var(--accent-color);
+    border-color: transparent;
+    cursor: pointer;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        position: absolute;
+            width: 216px;
+            height: 50px;
+            left: 692px;
+            top: 430px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+}
+
+.button {
+    color: var(--second-text-color);
+    background-color: var(--second-bg-color);
+    border-color: transparent;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--second-btn-color);
+    background-color: var(--accent-color);
+    border-color: transparent;
+}
+
+/* work-list */
+.work-name {
+    color: var(--second-text-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+}
