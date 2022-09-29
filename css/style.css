@@ -220,6 +220,10 @@ body {
     font-style: normal;
 }
 
+.mail:hover, .mail:focus {
+    color: var(--accent-color);
+}
+
 .logo-alter {
     color: var(--second-btn-color);
     font-family: 'Raleway';
