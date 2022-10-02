@@ -28,12 +28,16 @@ body {
     --second-btn-color: #FFFFFF;
     --logo-black-color:#000000;
     --second-bt-bg:#188CE8;
+    --outline:red;
+
 
 }
 
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .link {
@@ -103,6 +107,15 @@ body {
     color: var(--accent-color);
 }
 
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
+}
+
 /* Index html */
 /* Hero */
 
@@ -112,7 +125,10 @@ body {
 }
 
 .hero-tittle {
-    color: var(--second-btn-color);
+    width: 696px;
+        margin-left: auto;
+        margin-right: auto;
+        color: var(--second-btn-color);
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -120,7 +136,10 @@ body {
         line-height: 1.3636;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        padding-top: 200px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+
 }
 
 /* Content */
@@ -159,6 +178,7 @@ body {
         line-height: 1.1719;
         text-align: center;
         letter-spacing: 0.03em;
+        margin: 0;
 }
 
 
@@ -184,6 +204,7 @@ body {
         line-height: 1.1719;
         text-align: center;
         letter-spacing: 0.03em;
+        margin: 0;
 }
 
 .about-name {
@@ -296,3 +317,4 @@ body {
         line-height: 2;
         letter-spacing: 0.06em;
 }
+
