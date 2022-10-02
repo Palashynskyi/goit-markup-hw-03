@@ -29,8 +29,6 @@ body {
     --logo-black-color:#000000;
     --second-bt-bg:#188CE8;
     --outline:red;
-
-
 }
 
 
@@ -113,7 +111,7 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid red;
+    outline: 1px solid var(--outline);
 }
 
 /* Index html */
@@ -139,7 +137,6 @@ body {
         text-align: center;
         margin-top: 0;
         margin-bottom: 0;
-
 }
 
 /* Content */
@@ -224,8 +221,6 @@ body {
 
 .footer-box {
     background-color: var(--head-footter-bgc);
-   
-
 }
 
 .mail {
