@@ -54,6 +54,8 @@ body {
         font-size: 26px;
         line-height: 1.1738;
         letter-spacing: 0.03em;
+        padding-top: 24px;
+        padding-bottom: 25px;
 }
 
 .logo-studio {
@@ -64,9 +66,20 @@ body {
         font-size: 26px;
         line-height: 1.1738;
         letter-spacing: 0.03em;
+        padding-top: 24px;
+        padding-bottom: 25px;
+        padding-right: 93px;
+        outline: 1px solid red;
 }
 
 /* Site nav */
+
+.nav {
+    width: 281px;
+    justify-content: space-between;
+    outline: 1px solid red;
+    padding-right: 344px;
+}
 
 .flex {
     display: flex;
@@ -80,6 +93,8 @@ body {
         font-size: 14px;
         line-height: 1.1721;
         letter-spacing: 0.02em;
+        padding-top: 32px;
+
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -90,6 +105,15 @@ body {
      color: var(--accent-color);
 }
 
+.auth-nav>li {
+    padding-right: 50px;
+    outline: 1px solid red;
+}
+
+.auth-nav>:last-child {
+    padding-right: 0;
+}
+
 .item {
     color: var(--primary-text-color); 
     font-family: 'Roboto';
@@ -98,6 +122,7 @@ body {
         font-size: 14px;
         line-height: 1.1721;
         letter-spacing: 0.02em;
+        padding-top: 32px;
 }
 
 .item:hover, .item:focus {
@@ -105,7 +130,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 1170px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
