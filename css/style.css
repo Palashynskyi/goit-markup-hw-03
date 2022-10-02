@@ -70,7 +70,6 @@ body {
 
 .flex {
     display: flex;
-    justify-content: space-around;
 }
 
 .nav-link {
