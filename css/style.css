@@ -94,7 +94,6 @@ body {
         line-height: 1.1721;
         letter-spacing: 0.02em;
         padding-top: 32px;
-
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -187,10 +186,6 @@ body {
     padding-top: 94px;
 }
 
-.content-features-box {
-    /* outline: 1px solid var(--outline); */
-}
-
 .content-tittle, .content-features-item {
     color: var(--second-text-color);
 }
@@ -207,14 +202,14 @@ body {
         /* outline: 1px solid var(--outline); */
 }
 
+.content-features-box {
+    width: calc((100%-90px) / 4);
+}
+
 .content-features-box:not(:last-child) {
     display: flex;
     justify-content: space-between;
     margin-right: 30px;
-}
-
-.content-features-box {
-    width: calc((100%-90px) / 4);
 }
 
 .features-text {
@@ -224,6 +219,7 @@ body {
         font-size: 14px;
         line-height: 1.7142;
         letter-spacing: 0.03em;
+        margin-bottom: 0;
 }
 
 .content-tittle {
@@ -236,7 +232,6 @@ body {
         letter-spacing: 0.03em;
         margin: 0;
         padding-bottom: 50px;
-       
 }
 
 /* Work list */
@@ -247,15 +242,17 @@ body {
 }
 
 
-
 /* About */
 .about {
     background-color: var(--second-bg-color);
-
 }
 
 .about-li {
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    padding-bottom: 94px;
 }
 
 .about-li-item {
@@ -291,7 +288,17 @@ body {
 
 /* Footer */
 .footer-map {
-    margin-top: 60px;
+   display: inline-block;
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+
+.footer-list {
+    display: inline-block;
+}
+
+.footer-list:last-child {
+    margin-bottom: 50px;
 }
 
 .footer-box {
