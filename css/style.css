@@ -161,6 +161,8 @@ body {
         text-align: center;
         margin-top: 0;
         margin-bottom: 0;
+        outline: 1px solid var(--outline);
+        padding-top: 200px;
 }
 
 /* Content */
@@ -177,11 +179,15 @@ body {
     margin: -1px;
 }
 
-.content-tittle, .content-features {
+.content-features-box {
+    outline: 1px solid var(--outline);
+}
+
+.content-tittle, .content-features-item {
     color: var(--second-text-color);
 }
 
-.content-features {
+.content-features-item {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -189,6 +195,11 @@ body {
         line-height: 1.1721;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        padding-top: 94px;
+}
+
+.features-text {
+    padding-bottom: 94px;
 }
 
 .content-tittle {
@@ -200,6 +211,8 @@ body {
         text-align: center;
         letter-spacing: 0.03em;
         margin: 0;
+        padding-bottom: 50px;
+       
 }
 
 
@@ -211,6 +224,10 @@ body {
 
 .about-li {
     text-align: center;
+}
+
+.about-li-item {
+    outline: 1px solid red;
 }
 
 .about-tittle, .about-name {
@@ -226,6 +243,8 @@ body {
         text-align: center;
         letter-spacing: 0.03em;
         margin: 0;
+        padding-bottom: 50px;
+        padding-top: 94px;
 }
 
 .about-name {
@@ -274,10 +293,6 @@ body {
 
 /* Button */
 
-.center {
-
-}
-
 .hero-btn {
     width: 216px;
     height: 50px;
@@ -292,9 +307,10 @@ body {
         line-height: 1.875;
         letter-spacing: 0.06em;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 4px;   
-        margin-top: 30px;  
+        border-radius: 4px; 
+        margin-top: 30px;
         margin-bottom: 200px;
+        outline: 1px solid red;
 }
 
 .hero-btn:hover, .hero-btn:focus {
