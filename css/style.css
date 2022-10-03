@@ -149,10 +149,6 @@ body {
 }
 
 .hero-tittle {
-    width: 696px;
-        margin-left: auto;
-        margin-right: auto;
-        color: var(--second-btn-color);
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -161,10 +157,14 @@ body {
         letter-spacing: 0.06em;
         text-transform: uppercase;
         text-align: center;
+        /* outline: 1px solid var(--outline); */
+    width: 696px;
         margin-top: 0;
         margin-bottom: 0;
-        /* outline: 1px solid var(--outline); */
+        margin-left: auto;
+        margin-right: auto;
         padding-top: 200px;
+        color: var(--second-btn-color);
 }
 
 /* Content */
