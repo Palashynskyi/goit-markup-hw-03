@@ -137,6 +137,10 @@ body {
     outline: 1px solid var(--outline);
 }
 
+.outline {
+    outline: 1px solid var(--outline);
+}
+
 /* Index html */
 /* Hero */
 
@@ -160,7 +164,7 @@ body {
         text-align: center;
         margin-top: 0;
         margin-bottom: 0;
-        outline: 1px solid var(--outline);
+        /* outline: 1px solid var(--outline); */
         padding-top: 200px;
 }
 
@@ -178,8 +182,13 @@ body {
     margin: -1px;
 }
 
+.content-features {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
 .content-features-box {
-    outline: 1px solid var(--outline);
+    /* outline: 1px solid var(--outline); */
 }
 
 .content-tittle, .content-features-item {
@@ -194,11 +203,27 @@ body {
         line-height: 1.1721;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        padding-top: 94px;
+        margin: 0;
+        /* outline: 1px solid var(--outline); */
+}
+
+.content-features-box:not(:last-child) {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.content-features-box {
+    width: calc((100%-90px) / 4);
 }
 
 .features-text {
-    padding-bottom: 94px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7142;
+        letter-spacing: 0.03em;
 }
 
 .content-tittle {
@@ -213,6 +238,14 @@ body {
         padding-bottom: 50px;
        
 }
+
+/* Work list */
+.work-list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
 
 
 /* About */
