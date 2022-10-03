@@ -107,7 +107,6 @@ body {
 
 .auth-nav>li {
     padding-right: 50px;
-    outline: 1px solid red;
 }
 
 .auth-nav>:last-child {
