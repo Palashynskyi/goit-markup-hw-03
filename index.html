@@ -9,7 +9,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">    <link rel="stylesheet" href="./css/style.css">
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">    
+        <link rel="stylesheet" href="./css/style.css">
     </head>
 
     <body>
@@ -18,17 +20,19 @@
             <div class="container flex">
                 <nav class="flex">                
                     <a href="./index.html" class="link flex"><span class="logo-web ">Web</span><span class="logo-studio ">Studio</span></a>
-                    <ul class="nav list flex">
-                        <li>
-                            <a href="./index.html" class="nav-link flex link current">Студія</a>
-                        </li>
-                        <li>
-                            <a href="./portfolio.html" class="nav-link flex link">Портфоліо</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link flex link">Контакти</a>
-                        </li>
-                    </ul>
+                    <div class="nav-box">
+                        <ul class="nav list flex">
+                            <li>
+                                <a href="./index.html" class="nav-link flex link current">Студія</a>
+                            </li>
+                            <li>
+                                <a href="./portfolio.html" class="nav-link flex link">Портфоліо</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link flex link">Контакти</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
                     <!-- Header contacts -->
                     <ul class="auth-nav list flex">
@@ -89,7 +93,7 @@
             <section class="content">
                 <div class="container">
                     <h2 class="content-tittle">Чим ми займаємося</h2>
-                    <ul class="work list flex">
+                    <ul class="worklist flex list">
                         <li class="work-list">
                             <img src="./images/box1.jpg" alt="Фото процесу роботи співробітника" width="370">
                         </li>
