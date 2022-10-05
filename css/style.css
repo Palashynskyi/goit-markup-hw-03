@@ -52,19 +52,13 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-
-  
 }
 
 .outline {
     outline: 1px solid var(--outline);
 }
 
-/* .center {
-    align-items: center;
-} */
 /* Header */
-/* Logo style */
 
 .nav-box {
     display: flex;
@@ -207,6 +201,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding-top: 200px;
+    padding-bottom: 30px;
     color: var(--second-btn-color);
 }
 
