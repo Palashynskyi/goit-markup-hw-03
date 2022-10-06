@@ -1,15 +1,3 @@
-/* колір основного тексту       #212121 */
-/* колір другорядного тексту    #757575 */
-/* лого     чорний              #000000 
-            синій               #2196F3 */
-
-/* ховер синій                  #2196F3 */
-/* сірий майл тел               rgba(255, 255, 255, 0.6) */
-/* білий                        #FFFFFF */
-
-/* фон основний             #FFFFFF */
-/* фон другорядний          #F5F4FA */
-/* фон герой та футер       #2F303A */
 
 
 /* Global */
@@ -28,7 +16,20 @@ body {
     --second-btn-color: #FFFFFF;
     --logo-black-color:#000000;
     --second-bt-bg:#188CE8;
-    --outline:red;
+    --hdr-border-color: #ECECEC;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 .list {
@@ -110,21 +111,25 @@ body {
 }
 
 .nav-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--second-text-color);
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1721;
     letter-spacing: 0.02em;
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .nav-link:hover, .nav-link:focus {
     color: var(--accent-color);
 }
+
+
 
 .auth-nav{
     display: flex;
@@ -137,25 +142,27 @@ body {
     background-color: red;
 } */
 
-.auth-nav>li:not(:last-child) {
-    margin-right: 50px;
-}
-
 /* .auth-nav>li:first-child {
     margin-left: 340px;
 } */
 
+.auth-nav>li:not(:last-child) {
+    margin-right: 50px;
+}
+
 .item {
     display:block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--primary-text-color); 
+  
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1721;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .item:hover, .item:focus {
@@ -167,9 +174,9 @@ body {
 }
 
 img {
+    display: block;
     max-width: 100%;
     height: auto;
-    display: block;
 }
 
 
@@ -177,24 +184,18 @@ img {
 /* Hero */
 
 .hero{
-    background-color: var(--head-footter-bgc);
-    text-align: center;
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
 
+    background-color: var(--head-footter-bgc);
+
+    text-align: center;
+  
 }
 
 .hero-tittle {
     display: block;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.3636;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    text-align: center;
     max-width: 696px;
     width: 100%;
     margin-top: 0;
@@ -203,30 +204,30 @@ img {
     margin-right: auto;
     padding-top: 200px;
     padding-bottom: 30px;
+
     color: var(--second-btn-color);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+  
 }
 
 /* Content */
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
 
 .content-features {
     padding-bottom: 94px;
     padding-top: 94px;
     max-width: 1600px;
     width: 100%;
-    background-color: var(--second-btn-color);
     margin: 0 auto;
+
+    background-color: var(--second-btn-color);
 }
 
 .content-tittle, .content-features-item {
@@ -234,6 +235,8 @@ img {
 }
 
 .content-features-item {
+    margin: 0;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -241,7 +244,6 @@ img {
     line-height: 1.1721;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin: 0;
 }
 
 .content-features-box {
@@ -249,22 +251,27 @@ img {
 }
 
 .content-features-box:not(:last-child) {
+    margin-right: 30px;
+
     display: flex;
     justify-content: space-between;
-    margin-right: 30px;
 }
 
 .features-text {
+    margin-bottom: 0;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
-    margin-bottom: 0;
 }
 
 .content-tittle {
+    margin: 0;
+    padding-bottom: 50px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -272,8 +279,6 @@ img {
     line-height: 1.1719;
     text-align: center;
     letter-spacing: 0.03em;
-    margin: 0;
-    padding-bottom: 50px;
 }
 
 /* Work list */
@@ -293,25 +298,30 @@ img {
 .content {
     max-width: 1600px;
     width: 100%;
-    background-color: var(--second-btn-color);
     margin: 0 auto;
+ 
+    background-color: var(--second-btn-color);
 }
 
 /* About */
 
 .about {
-    background-color: var(--second-bg-color);
     max-width: 1600px;
     width: 100%;
     margin: 0 auto;
+
+    background-color: var(--second-bg-color);
 }
 
 .about-li {
-    text-align: center;
     display: flex;
     justify-content: space-between;
     padding-bottom: 94px;
+
+    text-align: center;
 }
+    
+   
 
 .about-li:not(:last-child) {
     margin-right: 30px;
@@ -322,6 +332,10 @@ img {
 }
 
 .about-tittle {
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 94px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -329,9 +343,6 @@ img {
     line-height: 1.1719;
     text-align: center;
     letter-spacing: 0.03em;
-    margin: 0;
-    padding-bottom: 50px;
-    padding-top: 94px;
 }
 
 .about-name {
@@ -347,10 +358,11 @@ img {
 /* Footer */
 
 .footer-box {
-    background-color: var(--head-footter-bgc);
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
+
+    background-color: var(--head-footter-bgc);
 }
 
 .footer-logo {
@@ -361,6 +373,7 @@ img {
 
 .footer-logo-web {
     color: var(--accent-color);
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -371,6 +384,7 @@ img {
 
 .logo-alter {
     color: var(--second-btn-color);
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -393,6 +407,7 @@ img {
 
 .footer-item {
     color: var(--primary-text-color);
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -424,6 +439,11 @@ img {
 
 
 /* Portfolio html */
+
+.header {
+    border-bottom: 1px solid var(--hdr-border-color);
+}
+
 /* filter-list */
 
 .filter-tittle {
@@ -433,7 +453,6 @@ img {
 .filter-list {
     display: flex;
     justify-content: center;
-    /* margin-right: 8px; */
 }
 
 .filter-item {
@@ -448,11 +467,6 @@ img {
     
 /* work-list */
 
-.work {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .work-list{
     display: flex;
     flex-wrap: wrap;
@@ -460,21 +474,27 @@ img {
 
 .work-item {
     width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
-
-
-
+.work-item:nth-child(3n) {
+    margin-right: 0;
+}
 /* Button */
 
 .hero-btn {
     max-width: 216px;
     width: 100%;
     height: 50px;
+    border-radius: 4px; 
+    margin-bottom: 200px;
+
     color: var(--second-btn-color);
     background-color: var(--accent-color);
     border-color: transparent;
     cursor: pointer;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -482,23 +502,26 @@ img {
     line-height: 1.875;
     letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px; 
-    margin-bottom: 200px;
+
 }
 
 .hero-btn:hover, .hero-btn:focus {
     width: 216px;
     height: 50px;
     border-radius: 4px; 
+
     background-color: var(--second-bt-bg);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
 }
 
 .filter-button {
     cursor: pointer;
+    border-radius: 4px;
+
     color: var(--second-text-color);
     background-color: var(--second-bg-color);
     border-color: transparent;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -506,7 +529,6 @@ img {
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
-    border-radius: 4px;
 }
 
 .filter-button:hover,
