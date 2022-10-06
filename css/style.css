@@ -17,6 +17,7 @@ body {
     --logo-black-color:#000000;
     --second-bt-bg:#188CE8;
     --hdr-border-color: #ECECEC;
+    --work-card-border-color:#EEEEEE;
 }
 
 .visually-hidden {    
@@ -474,6 +475,14 @@ img {
 .work-item:nth-child(3n) {
     margin-right: 0;
 }
+
+.work-card {
+    border-top: none;
+    padding: 20px 24px;
+
+    border: 1px solid var(--work-card-border-color);
+}
+
 /* Button */
 
 .hero-btn {
