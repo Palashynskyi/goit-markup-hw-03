@@ -19,7 +19,7 @@ body {
     --hdr-border-color: #ECECEC;
 }
 
-.visually-hidden {
+.visually-hidden {    
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -55,9 +55,6 @@ body {
     padding-right: 15px;
 }
 
-.outline {
-    outline: 1px solid var(--outline);
-}
 
 /* Header */
 
@@ -420,8 +417,6 @@ img {
     color: var(--accent-color);
 }
 
-
-
 .mail {
     color:var(--second-btn-color);
     font-family: 'Roboto';
@@ -435,8 +430,6 @@ img {
 .mail:hover, .mail:focus {
     color: var(--accent-color);
 }
-
-
 
 /* Portfolio html */
 
