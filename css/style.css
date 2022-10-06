@@ -464,6 +464,7 @@ img {
 .work-list{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 94px;
 }
 
 .work-item {
@@ -476,10 +477,13 @@ img {
     margin-right: 0;
 }
 
+.work-item:nth-last-child(-n + 3) {
+    margin-bottom: 0px;
+}
+
 .work-card {
     border-top: none;
     padding: 20px 24px;
-
     border: 1px solid var(--work-card-border-color);
 }
 
