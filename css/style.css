@@ -60,7 +60,6 @@ body {
     padding-right: 15px;
 }
 
-
 /* Header */
 
 .nav-box {
@@ -181,7 +180,6 @@ img {
     height: auto;
 }
 
-
 /* Index html */
 /* Hero */
 
@@ -193,7 +191,6 @@ img {
     background-color: var(--head-footter-bgc);
 
     text-align: center;
-  
 }
 
 .hero-tittle {
@@ -217,7 +214,6 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
-  
 }
 
 /* Content */
@@ -445,8 +441,11 @@ img {
 
 /* Portfolio html */
 
-.header {
+.header-line {
     border-bottom: 1px solid var(--hdr-border-color);
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 /* filter-list */
@@ -588,4 +587,3 @@ img {
     line-height: 2;
     letter-spacing: 0.06em;
 }
-
