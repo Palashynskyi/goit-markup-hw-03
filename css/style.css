@@ -47,6 +47,10 @@ body {
     display: flex;
 }
 
+.section {
+    padding: 94px 0;
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -219,8 +223,6 @@ img {
 /* Content */
 
 .content-features {
-    padding-bottom: 94px;
-    padding-top: 94px;
     max-width: 1600px;
     width: 100%;
     margin: 0 auto;
@@ -242,6 +244,10 @@ img {
     line-height: 1.1721;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.content-features-list {
+    margin-bottom: 94px;
 }
 
 .content-features-box {
@@ -281,9 +287,6 @@ img {
 }
 
 /* Work list */
-.worklist {
-    padding-bottom: 94px;
-}
 
 .work-list {
     display: flex;
@@ -460,7 +463,6 @@ img {
 .filter-item {
     display: block;
     margin-bottom: 50px;
-    margin-top: 94px;
 }
 
 .filter-item:not(:last-child) {
@@ -472,7 +474,6 @@ img {
 .work-lists {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
 }
 
 .work-item {
