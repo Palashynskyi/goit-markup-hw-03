@@ -498,8 +498,8 @@ img {
     border: 1px solid var(--work-card-border-color);
     border-top: none;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .work-name {
@@ -509,6 +509,7 @@ img {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    padding-bottom: 3px;
 }
 
 .work-name-item {
