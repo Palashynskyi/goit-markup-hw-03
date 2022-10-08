@@ -411,7 +411,7 @@ img {
 }
 
 .footer-list-item:not(:last-child) {
-    margin-bottom: 9px;
+    padding-bottom: 9px;
 }
 
 .footer-list-item:last-child {
