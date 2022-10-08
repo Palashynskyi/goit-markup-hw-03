@@ -20,6 +20,12 @@ body {
     --work-card-border-color:#EEEEEE;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .visually-hidden {    
     position: absolute;
     white-space: nowrap;
@@ -51,6 +57,10 @@ body {
     padding: 94px 0;
 }
 
+.section_no_padding {
+    padding-top: 94px;
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -61,6 +71,10 @@ body {
 }
 
 /* Header */
+
+.header-logo {
+    margin-right: 93px;
+}
 
 .nav-box {
     display: flex;
@@ -89,7 +103,6 @@ body {
     display: block;
     padding-top: 24px;
     padding-bottom: 25px;
-    margin-right: 93px;
 
     color: var(--logo-black-color);
 
@@ -185,7 +198,6 @@ img {
 
 .hero{
     width: 100%;
-    max-width: 1600px;
     margin: 0 auto;
 
     background-color: var(--head-footter-bgc);
@@ -219,7 +231,6 @@ img {
 /* Content */
 
 .content-features {
-    max-width: 1600px;
     width: 100%;
     margin: 0 auto;
 
@@ -240,10 +251,6 @@ img {
     line-height: 1.1721;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.content-features-list {
-    margin-bottom: 94px;
 }
 
 .content-features-box {
@@ -294,7 +301,6 @@ img {
 }
 
 .content {
-    max-width: 1600px;
     width: 100%;
     margin: 0 auto;
  
@@ -304,7 +310,6 @@ img {
 /* About */
 
 .about {
-    max-width: 1600px;
     width: 100%;
     margin: 0 auto;
 
@@ -325,6 +330,12 @@ img {
     margin-right: 30px;
 }
 
+.about-li-item {
+    background-color: var(--second-btn-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
+
 .about-tittle, .about-name {
     color: var(--second-text-color);
 }
@@ -343,6 +354,11 @@ img {
     letter-spacing: 0.03em;
 }
 
+.about-name-box {
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+
 .about-name {
     font-family: 'Roboto';
     font-style: normal;
@@ -351,27 +367,22 @@ img {
     line-height: 1.1718;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 10px;
-    margin-top: 30px;
 }
 
 .about-name-item {
-    margin-bottom: 30px;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 /* Footer */
 
 .footer-box {
     width: 100%;
-    max-width: 1600px;
     margin: 0 auto;
 
     background-color: var(--head-footter-bgc);
 }
 
 .footer-logo {
-    display: flex;
     padding-top: 60px;
     margin-bottom: 20px;
 }
@@ -385,6 +396,7 @@ img {
     font-size: 26px;
     line-height: 1.1923;
     letter-spacing: 0.03em;
+    
 }
 
 .logo-alter {
@@ -444,7 +456,6 @@ img {
 .header-line {
     border-bottom: 1px solid var(--hdr-border-color);
     width: 100%;
-    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -493,10 +504,11 @@ img {
     padding: 0 24px;
     border: 1px solid var(--work-card-border-color);
     border-top: none;
+    text-align: center;
 }
 
 .work-name {
-    margin-bottom: 4px;
+    padding-bottom: 4px;
     padding-top: 20px;
     margin-top: 0;
 
@@ -509,7 +521,7 @@ img {
 }
 
 .work-name-item {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     margin-top: 0;
 
     font-family: 'Roboto';
@@ -556,6 +568,8 @@ img {
 .filter-button {
     cursor: pointer;
     border-radius: 4px;
+    padding: 6px 22px;    
+    
 
     color: var(--second-text-color);
     background-color: var(--second-bg-color);
